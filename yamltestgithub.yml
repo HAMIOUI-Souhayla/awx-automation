@@ -1,0 +1,5 @@
+- name: Run Test Script
+  hosts: localhost
+  tasks:
+    - name: Execute Python Script
+      command: python3 pytest.py

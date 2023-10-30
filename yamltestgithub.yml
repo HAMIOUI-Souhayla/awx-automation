@@ -2,4 +2,4 @@
   hosts: localhost
   tasks:
     - name: Execute Python Script
-      command: python3 pytest.py
+      command: python3 pyScript.py
